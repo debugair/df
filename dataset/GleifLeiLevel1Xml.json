@@ -1,0 +1,21 @@
+{
+	"name": "GleifLeiLevel1Xml",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "GLEIF",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "GLEIF/Level1"
+		},
+		"annotations": [],
+		"type": "Xml",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "Level1/Xml",
+				"fileSystem": "gleif"
+			}
+		}
+	}
+}
