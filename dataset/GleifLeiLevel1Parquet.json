@@ -18,6 +18,919 @@
 			},
 			"compressionCodec": "snappy"
 		},
-		"schema": []
+		"schema": [
+			{
+				"name": "LEI",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.LegalName",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.LegalName.xmllang",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherEntityNames.OtherEntityName.1",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherEntityNames.OtherEntityName.1.xmllang",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherEntityNames.OtherEntityName.1.type",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherEntityNames.OtherEntityName.2",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherEntityNames.OtherEntityName.2.xmllang",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherEntityNames.OtherEntityName.2.type",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherEntityNames.OtherEntityName.3",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherEntityNames.OtherEntityName.3.xmllang",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherEntityNames.OtherEntityName.3.type",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherEntityNames.OtherEntityName.4",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherEntityNames.OtherEntityName.4.xmllang",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherEntityNames.OtherEntityName.4.type",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherEntityNames.OtherEntityName.5",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherEntityNames.OtherEntityName.5.xmllang",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherEntityNames.OtherEntityName.5.type",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherEntityNames.TransliteratedOtherEntityName.1",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherEntityNames.TransliteratedOtherEntityName.1.xmllang",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherEntityNames.TransliteratedOtherEntityName.1.type",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherEntityNames.TransliteratedOtherEntityName.2",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherEntityNames.TransliteratedOtherEntityName.2.xmllang",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherEntityNames.TransliteratedOtherEntityName.2.type",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherEntityNames.TransliteratedOtherEntityName.3",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherEntityNames.TransliteratedOtherEntityName.3.xmllang",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherEntityNames.TransliteratedOtherEntityName.3.type",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherEntityNames.TransliteratedOtherEntityName.4",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherEntityNames.TransliteratedOtherEntityName.4.xmllang",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherEntityNames.TransliteratedOtherEntityName.4.type",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherEntityNames.TransliteratedOtherEntityName.5",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherEntityNames.TransliteratedOtherEntityName.5.xmllang",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherEntityNames.TransliteratedOtherEntityName.5.type",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.LegalAddress.xmllang",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.LegalAddress.FirstAddressLine",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.LegalAddress.AddressNumber",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.LegalAddress.AddressNumberWithinBuilding",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.LegalAddress.MailRouting",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.LegalAddress.AdditionalAddressLine.1",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.LegalAddress.AdditionalAddressLine.2",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.LegalAddress.AdditionalAddressLine.3",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.LegalAddress.City",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.LegalAddress.Region",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.LegalAddress.Country",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.LegalAddress.PostalCode",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.HeadquartersAddress.xmllang",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.HeadquartersAddress.FirstAddressLine",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.HeadquartersAddress.AddressNumber",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.HeadquartersAddress.AddressNumberWithinBuilding",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.HeadquartersAddress.MailRouting",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.HeadquartersAddress.AdditionalAddressLine.1",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.HeadquartersAddress.AdditionalAddressLine.2",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.HeadquartersAddress.AdditionalAddressLine.3",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.HeadquartersAddress.City",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.HeadquartersAddress.Region",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.HeadquartersAddress.Country",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.HeadquartersAddress.PostalCode",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.1.xmllang",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.1.type",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.1.FirstAddressLine",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.1.AddressNumber",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.1.AddressNumberWithinBuilding",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.1.MailRouting",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.1.AdditionalAddressLine.1",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.1.AdditionalAddressLine.2",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.1.AdditionalAddressLine.3",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.1.City",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.1.Region",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.1.Country",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.1.PostalCode",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.2.xmllang",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.2.type",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.2.FirstAddressLine",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.2.AddressNumber",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.2.AddressNumberWithinBuilding",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.2.MailRouting",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.2.AdditionalAddressLine.1",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.2.AdditionalAddressLine.2",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.2.AdditionalAddressLine.3",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.2.City",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.2.Region",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.2.Country",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.2.PostalCode",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.3.xmllang",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.3.type",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.3.FirstAddressLine",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.3.AddressNumber",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.3.AddressNumberWithinBuilding",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.3.MailRouting",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.3.AdditionalAddressLine.1",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.3.AdditionalAddressLine.2",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.3.AdditionalAddressLine.3",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.3.City",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.3.Region",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.3.Country",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.3.PostalCode",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.4.xmllang",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.4.type",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.4.FirstAddressLine",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.4.AddressNumber",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.4.AddressNumberWithinBuilding",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.4.MailRouting",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.4.AdditionalAddressLine.1",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.4.AdditionalAddressLine.2",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.4.AdditionalAddressLine.3",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.4.City",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.4.Region",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.4.Country",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.4.PostalCode",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.5.xmllang",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.5.type",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.5.FirstAddressLine",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.5.AddressNumber",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.5.AddressNumberWithinBuilding",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.5.MailRouting",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.5.AdditionalAddressLine.1",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.5.AdditionalAddressLine.2",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.5.AdditionalAddressLine.3",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.5.City",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.5.Region",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.5.Country",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.OtherAddresses.OtherAddress.5.PostalCode",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.1.xmllang",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.1.type",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.1.FirstAddressLine",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.1.AddressNumber",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.1.AddressNumberWithinBuilding",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.1.MailRouting",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.1.AdditionalAddressLine.1",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.1.AdditionalAddressLine.2",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.1.AdditionalAddressLine.3",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.1.City",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.1.Region",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.1.Country",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.1.PostalCode",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.2.xmllang",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.2.type",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.2.FirstAddressLine",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.2.AddressNumber",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.2.AddressNumberWithinBuilding",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.2.MailRouting",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.2.AdditionalAddressLine.1",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.2.AdditionalAddressLine.2",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.2.AdditionalAddressLine.3",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.2.City",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.2.Region",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.2.Country",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.2.PostalCode",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.3.xmllang",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.3.type",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.3.FirstAddressLine",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.3.AddressNumber",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.3.AddressNumberWithinBuilding",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.3.MailRouting",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.3.AdditionalAddressLine.1",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.3.AdditionalAddressLine.2",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.3.AdditionalAddressLine.3",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.3.City",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.3.Region",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.3.Country",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.3.PostalCode",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.4.xmllang",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.4.type",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.4.FirstAddressLine",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.4.AddressNumber",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.4.AddressNumberWithinBuilding",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.4.MailRouting",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.4.AdditionalAddressLine.1",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.4.AdditionalAddressLine.2",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.4.AdditionalAddressLine.3",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.4.City",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.4.Region",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.4.Country",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.4.PostalCode",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.5.xmllang",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.5.type",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.5.FirstAddressLine",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.5.AddressNumber",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.5.AddressNumberWithinBuilding",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.5.MailRouting",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.5.AdditionalAddressLine.1",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.5.AdditionalAddressLine.2",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.5.AdditionalAddressLine.3",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.5.City",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.5.Region",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.5.Country",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.TransliteratedOtherAddresses.TransliteratedOtherAddress.5.PostalCode",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.RegistrationAuthority.RegistrationAuthorityID",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.RegistrationAuthority.OtherRegistrationAuthorityID",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.RegistrationAuthority.RegistrationAuthorityEntityID",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.LegalJurisdiction",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.EntityCategory",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.LegalForm.EntityLegalFormCode",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.LegalForm.OtherLegalForm",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.AssociatedEntity.type",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.AssociatedEntity.AssociatedLEI",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.AssociatedEntity.AssociatedEntityName",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.AssociatedEntity.AssociatedEntityName.xmllang",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.EntityStatus",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.EntityExpirationDate",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.EntityExpirationReason",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.SuccessorEntity.SuccessorLEI",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.SuccessorEntity.SuccessorEntityName",
+				"type": "UTF8"
+			},
+			{
+				"name": "Entity.SuccessorEntity.SuccessorEntityName.xmllang",
+				"type": "UTF8"
+			},
+			{
+				"name": "Registration.InitialRegistrationDate",
+				"type": "UTF8"
+			},
+			{
+				"name": "Registration.LastUpdateDate",
+				"type": "UTF8"
+			},
+			{
+				"name": "Registration.RegistrationStatus",
+				"type": "UTF8"
+			},
+			{
+				"name": "Registration.NextRenewalDate",
+				"type": "UTF8"
+			},
+			{
+				"name": "Registration.ManagingLOU",
+				"type": "UTF8"
+			},
+			{
+				"name": "Registration.ValidationSources",
+				"type": "UTF8"
+			},
+			{
+				"name": "Registration.ValidationAuthority.ValidationAuthorityID",
+				"type": "UTF8"
+			},
+			{
+				"name": "Registration.ValidationAuthority.OtherValidationAuthorityID",
+				"type": "UTF8"
+			},
+			{
+				"name": "Registration.ValidationAuthority.ValidationAuthorityEntityID",
+				"type": "UTF8"
+			},
+			{
+				"name": "Registration.OtherValidationAuthorities.OtherValidationAuthority.1.ValidationAuthorityID",
+				"type": "UTF8"
+			},
+			{
+				"name": "Registration.OtherValidationAuthorities.OtherValidationAuthority.1.OtherValidationAuthorityID",
+				"type": "UTF8"
+			},
+			{
+				"name": "Registration.OtherValidationAuthorities.OtherValidationAuthority.1.ValidationAuthorityEntityID",
+				"type": "UTF8"
+			},
+			{
+				"name": "Registration.OtherValidationAuthorities.OtherValidationAuthority.2.ValidationAuthorityID",
+				"type": "UTF8"
+			},
+			{
+				"name": "Registration.OtherValidationAuthorities.OtherValidationAuthority.2.OtherValidationAuthorityID",
+				"type": "UTF8"
+			},
+			{
+				"name": "Registration.OtherValidationAuthorities.OtherValidationAuthority.2.ValidationAuthorityEntityID",
+				"type": "UTF8"
+			},
+			{
+				"name": "Registration.OtherValidationAuthorities.OtherValidationAuthority.3.ValidationAuthorityID",
+				"type": "UTF8"
+			},
+			{
+				"name": "Registration.OtherValidationAuthorities.OtherValidationAuthority.3.OtherValidationAuthorityID",
+				"type": "UTF8"
+			},
+			{
+				"name": "Registration.OtherValidationAuthorities.OtherValidationAuthority.3.ValidationAuthorityEntityID",
+				"type": "UTF8"
+			},
+			{
+				"name": "Registration.OtherValidationAuthorities.OtherValidationAuthority.4.ValidationAuthorityID",
+				"type": "UTF8"
+			},
+			{
+				"name": "Registration.OtherValidationAuthorities.OtherValidationAuthority.4.OtherValidationAuthorityID",
+				"type": "UTF8"
+			},
+			{
+				"name": "Registration.OtherValidationAuthorities.OtherValidationAuthority.4.ValidationAuthorityEntityID",
+				"type": "UTF8"
+			},
+			{
+				"name": "Registration.OtherValidationAuthorities.OtherValidationAuthority.5.ValidationAuthorityID",
+				"type": "UTF8"
+			},
+			{
+				"name": "Registration.OtherValidationAuthorities.OtherValidationAuthority.5.OtherValidationAuthorityID",
+				"type": "UTF8"
+			},
+			{
+				"name": "Registration.OtherValidationAuthorities.OtherValidationAuthority.5.ValidationAuthorityEntityID",
+				"type": "UTF8"
+			}
+		]
 	}
 }
