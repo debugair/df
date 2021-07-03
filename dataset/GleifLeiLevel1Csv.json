@@ -6,7 +6,7 @@
 			"type": "LinkedServiceReference"
 		},
 		"folder": {
-			"name": "GLEIF"
+			"name": "GLEIF/Level1"
 		},
 		"annotations": [],
 		"type": "DelimitedText",
