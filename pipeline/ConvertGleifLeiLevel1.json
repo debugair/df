@@ -17,7 +17,10 @@
 				"typeProperties": {
 					"dataflow": {
 						"referenceName": "GleifLeiLevel1Csv2Parquet",
-						"type": "DataFlowReference"
+						"type": "DataFlowReference",
+						"parameters": {
+							"parameter1": "a"
+						}
 					},
 					"compute": {
 						"coreCount": 8,
