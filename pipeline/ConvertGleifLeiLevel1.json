@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Data flow1",
+				"name": "GleifLeiLevel1Csv2Parquet",
 				"type": "ExecuteDataFlow",
 				"dependsOn": [],
 				"policy": {
