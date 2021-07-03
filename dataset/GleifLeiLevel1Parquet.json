@@ -5,6 +5,9 @@
 			"referenceName": "GLEIF",
 			"type": "LinkedServiceReference"
 		},
+		"folder": {
+			"name": "GLEIF/Level1"
+		},
 		"annotations": [],
 		"type": "Parquet",
 		"typeProperties": {
