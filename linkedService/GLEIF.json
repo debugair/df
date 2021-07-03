@@ -1,0 +1,12 @@
+{
+	"name": "GLEIF",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://dfdatalakegen2new.dfs.core.windows.net",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIlNUSy1QT0MtREZfZjlkNDIwODktNGI1Zi00ZTViLTg3Y2ItYjZhNjBjZDBiOGM3Ig0KfQ=="
+		}
+	}
+}
