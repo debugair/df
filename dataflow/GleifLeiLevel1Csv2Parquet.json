@@ -1,5 +1,5 @@
 {
-	"name": "dataflow1",
+	"name": "GleifLeiLevel1Csv2Parquet",
 	"properties": {
 		"type": "MappingDataFlow",
 		"typeProperties": {
