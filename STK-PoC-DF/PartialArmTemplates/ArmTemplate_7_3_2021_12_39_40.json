@@ -6,14 +6,6 @@
 			"type": "string",
 			"metadata": "Data Factory name",
 			"defaultValue": "STK-PoC-DF"
-		},
-		"GLEIF_accountKey": {
-			"type": "secureString",
-			"metadata": "Secure string for 'accountKey' of 'GLEIF'"
-		},
-		"GLEIF_properties_typeProperties_url": {
-			"type": "string",
-			"defaultValue": "https://dfdatalakegen2new.dfs.core.windows.net"
 		}
 	},
 	"variables": {
@@ -959,25 +951,6 @@
 						"type": "String"
 					}
 				]
-			},
-			"dependsOn": [
-				"[concat(variables('factoryId'), '/linkedServices/GLEIF')]"
-			]
-		},
-		{
-			"name": "[concat(parameters('factoryName'), '/GLEIF')]",
-			"type": "Microsoft.DataFactory/factories/linkedServices",
-			"apiVersion": "2018-06-01",
-			"properties": {
-				"annotations": [],
-				"type": "AzureBlobFS",
-				"typeProperties": {
-					"url": "[parameters('GLEIF_properties_typeProperties_url')]",
-					"accountKey": {
-						"type": "SecureString",
-						"value": "[parameters('GLEIF_accountKey')]"
-					}
-				}
 			},
 			"dependsOn": []
 		}
